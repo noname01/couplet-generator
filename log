@@ -1,0 +1,329 @@
+#data points: 6808
+epoch #0
+val loss   : 7.807570, val predict   = 0.0%
+train loss : 7.871518, train predict = 0.0%
+train sample
+        庭前春晓雄鸡舞___(世上风清燕子飞___) -> __________
+test sample
+        艺苑百花俏_____(文坛万象新_____) -> 雾_________
+
+epoch #1
+val loss   : 4.393657, val predict   = 0.0%
+train loss : 4.531971, train predict = 0.0%
+train sample
+        弧帨同悬葵心向日__(椿萱并茂婪尾留春__) -> 春花春万万万春春__
+test sample
+        风竹引天乐_____(林亭聚地灵_____) -> 春春春春______
+
+epoch #2
+val loss   : 4.506798, val predict   = 0.0%
+train loss : 4.341106, train predict = 0.0%
+train sample
+        夫妻似胶漆恩恩爱爱_(光景如榴花火火红红_) -> 春花春春万万万春春_
+test sample
+        碧海苍山玉宇____(春风丽日神州____) -> 春花春万春春____
+
+epoch #3
+val loss   : 4.501491, val predict   = 0.0%
+train loss : 4.286062, train predict = 0.0%
+train sample
+        诗画满园铺锦绣___(风雷动地走龙蛇___) -> 春花人有万长春___
+test sample
+        经济医时昭一代___(功名寿世足千秋___) -> 春风春风万春春___
+
+epoch #4
+val loss   : 4.506361, val predict   = 0.0%
+train loss : 4.333735, train predict = 0.0%
+train sample
+        猴捧仙桃国安人寿__(羊衔嘉穗物阜年丰__) -> 春年春年万报新春__
+test sample
+        回溯前尘情同骨肉__(追怀往事痛断肝肠__) -> 春年春开万报新春__
+
+epoch #5
+val loss   : 4.126064, val predict   = 0.0%
+train loss : 3.804401, train predict = 0.0%
+train sample
+        军民团结如一人___(试看天下谁能敌___) -> 无前有月祝长春___
+test sample
+        同行顿失慈容劳想像_(教诲缅怀懿训寄悲哀_) -> 无公有，，寿有长心_
+
+epoch #6
+val loss   : 4.499676, val predict   = 0.0%
+train loss : 3.726012, train predict = 0.0%
+train sample
+        试看题字疑为凤___(敢道登门便是龙___) -> 人花花月有长人___
+test sample
+        暮日欣交贴心伴___(余生乐度幸福秋___) -> 春花花月月长春___
+
+epoch #7
+val loss   : 4.752257, val predict   = 0.0%
+train loss : 3.583410, train predict = 0.0%
+train sample
+        多种经营四路进宝__(全面发展八方生财__) -> 椿风益寿万代长春__
+test sample
+        椿萱并茂______(庚婺同明______) -> 人月长春______
+
+epoch #8
+val loss   : 3.936577, val predict   = 0.0%
+train loss : 3.469203, train predict = 0.0%
+train sample
+        桃李齐开春正好___(屋堂合曜寿无疆___) -> 人前有月不无圆___
+test sample
+        雨润萱花添秀色___(风和兰竹报平安___) -> 春花花月月双飞___
+
+epoch #9
+val loss   : 4.597619, val predict   = 0.0%
+train loss : 3.597021, train predict = 0.0%
+train sample
+        行可楷模年称德___(老夫松柏岁长春___) -> 无爱无亲一千香___
+test sample
+        千秋业绩______(一代风流______) -> 四海春丰______
+
+epoch #10
+val loss   : 4.099648, val predict   = 0.0%
+train loss : 3.489463, train predict = 0.0%
+train sample
+        枝头喜鹊言春早___(院里金鸡报岁新___) -> 春马春春报福春___
+test sample
+        膝下承欢未尽意___(床前伺奉尚余心___) -> 情前有子自人心___
+
+epoch #11
+val loss   : 3.867900, val predict   = 0.0%
+train loss : 3.565973, train predict = 0.0%
+train sample
+        花容羞月色_____(秋夜作春宵_____) -> 春山月月香_____
+test sample
+        夕阳无限光景美___(萱草有根晚花香___) -> 春风日喜喜双飞___
+
+epoch #12
+val loss   : 4.487029, val predict   = 0.0%
+train loss : 3.027531, train predict = 0.0%
+train sample
+        春满柜台五光十色__(货盈橱架万紫千红__) -> 春风绿上万海新春__
+test sample
+        主欢客乐______(近悦远来______) -> 德德常通______
+
+epoch #13
+val loss   : 4.382755, val predict   = 0.0%
+train loss : 3.084887, train predict = 0.0%
+train sample
+        碧桃无意随春水___(黄犊有情鼓绿涛___) -> 春花得日玉阳春___
+test sample
+        满座嘉宾漾喜气___(声声花炮迎新人___) -> 金风喜舞报春风___
+
+epoch #14
+val loss   : 4.189896, val predict   = 0.0%
+train loss : 2.891950, train predict = 0.0%
+train sample
+        人增高寿______(天转阳和______) -> 天气常辉______
+test sample
+        送酒刚送开径后___(调羹时值授衣时___) -> 莫闻何始赤子心___
+
+epoch #15
+val loss   : 4.524174, val predict   = 0.0%
+train loss : 2.828444, train predict = 0.0%
+train sample
+        萱草含芳千岁艳___(桂花香动五株新___) -> 花树花开百岁芝___
+test sample
+        倚栏芍药艳_____(并蒂蔷薇香_____) -> 同同人上诗_____
+
+epoch #16
+val loss   : 4.517746, val predict   = 0.0%
+train loss : 2.377018, train predict = 3.3%
+train sample
+        牛肥马壮辞牛岁___(虎跃龙腾迎虎年___) -> 燕语春春幸福春___
+test sample
+        金鸡歌国泰_____(义犬报民安_____) -> 玉燕报春风_____
+
+epoch #17
+val loss   : 4.653554, val predict   = 0.0%
+train loss : 2.656518, train predict = 0.0%
+train sample
+        门书喜字乾坤乐___(户进新人岁月甜___) -> 大日春风万象新___
+test sample
+        千顷金涛迎喜至___(一枝红杏入墙来___) -> 万里龙飞报早春___
+
+epoch #18
+val loss   : 4.086710, val predict   = 0.0%
+train loss : 2.398966, train predict = 0.0%
+train sample
+        好女娶夫破旧俗___(英男落户树新风___) -> 大地长开万象新___
+test sample
+        吉日花开梅并蒂___(良宵家庆月双圆___) -> 春风焕月映慈圆___
+
+epoch #19
+val loss   : 3.813875, val predict   = 0.0%
+train loss : 2.310621, train predict = 0.0%
+train sample
+        银镜台前人似玉___(茜纱窗下语如诗___) -> 玉露芝田梦夜圆___
+test sample
+        龙去神威在_____(蛇来紫气生_____) -> 兔迎喜气浓_____
+
+epoch #20
+val loss   : 4.057551, val predict   = 0.0%
+train loss : 2.415551, train predict = 0.0%
+train sample
+        碧野千重铺锦绣___(金鸡一曲唱丰收___) -> 金鸡万马奔腾飞___
+test sample
+        纳杏在林时维二月__(紫芝纪算数合九畴__) -> 鹤筹添寿五祝三秋__
+
+epoch #21
+val loss   : 3.972025, val predict   = 0.0%
+train loss : 2.313770, train predict = 0.0%
+train sample
+        竹径有时风为扫___(此门无事日常关___) -> 此人无亲德有多___
+test sample
+        挥笔龙蛇走_____(迎春莺燕歌_____) -> 举兔报春来_____
+
+epoch #22
+val loss   : 4.875242, val predict   = 0.0%
+train loss : 1.937594, train predict = 3.3%
+train sample
+        推崇科学笑迎百花艳_(倡导文明喜看万象新_) -> 倡导高明开万代迎春_
+test sample
+        诗无流俗形声正___(字不矜张结构安___) -> 莫闻何悟自无穷___
+
+epoch #23
+val loss   : 4.381342, val predict   = 0.0%
+train loss : 1.986340, train predict = 3.3%
+train sample
+        庭余安乐福_____(门掩太平居_____) -> 大气焕新春_____
+test sample
+        英雄门第______(革命人家______) -> 钢国长庭______
+
+epoch #24
+val loss   : 4.332813, val predict   = 0.0%
+train loss : 2.129490, train predict = 0.0%
+train sample
+        开上寿初筵九十曰耄_(乐余年安康八千为秋_) -> 良孙百世四化代千秋_
+test sample
+        爱党心诚葵向日___(孚民德重凤朝阳___) -> 精国人家自厦才___
+
+epoch #25
+val loss   : 4.522930, val predict   = 0.0%
+train loss : 1.785934, train predict = 3.3%
+train sample
+        伏枥犹存千里志___(添翼更上九重天___) -> 芳流万树九边天___
+test sample
+        花开天下福_____(马跃人间春_____) -> 人暖月乾坤_____
+
+epoch #26
+val loss   : 4.002631, val predict   = 0.0%
+train loss : 1.657120, train predict = 3.3%
+train sample
+        足征盛德如公寿可必得(若说不才像舅我何敢当) -> 若说说实像舅舅我何何
+test sample
+        念祖母毕生操劳伤罔报(教孙曹终天抱恨痛难忘) -> 叹哉辈辈强强国里长生
+
+epoch #27
+val loss   : 4.513371, val predict   = 0.0%
+train loss : 1.852594, train predict = 3.3%
+train sample
+        香山梅鹤饶清福___(宅地神仙占大春___) -> 喜气春风入吉祥___
+test sample
+        春露秋霜连广宇___(羊肠鸟道变通途___) -> 春风翠柳映翠堂___
+
+epoch #28
+val loss   : 4.334445, val predict   = 0.0%
+train loss : 1.671215, train predict = 0.0%
+train sample
+        虎啸一声山海动___(龙腾三界吉祥来___) -> 兔年万象展丰年___
+test sample
+        兰室犹然仍旧址___(槐堂又喜庆新居___) -> 琴瑟合曜寿无疆___
+
+epoch #29
+val loss   : 5.485227, val predict   = 0.0%
+train loss : 1.720591, train predict = 6.7%
+train sample
+        志大年高一腔热血__(童颜鹤发满面春风__) -> 童颜鹤发百世长生__
+test sample
+        新开周岁蹒珊步___(初启此生浩荡云___) -> 新风喜宇着冲云___
+
+epoch #30
+val loss   : 4.132557, val predict   = 0.0%
+train loss : 1.392887, train predict = 13.3%
+train sample
+        柳树花明春正好___(珠联璧合影成双___) -> 花联璧梦结同心___
+test sample
+        温公正人耆英会___(马氏咸称矍铄翁___) -> 誓爱应命尽英雄___
+
+epoch #31
+val loss   : 5.011171, val predict   = 0.0%
+train loss : 1.720337, train predict = 0.0%
+train sample
+        酒泛金樽以介眉寿__(花开琼岛有婪尾春__) -> 花田宝婺彩映林辰__
+test sample
+        日煦萱花云征异彩__(天留婺宿人庆百年__) -> 花投日彩瑞庆双堂__
+
+epoch #32
+val loss   : 4.349203, val predict   = 0.0%
+train loss : 1.466422, train predict = 6.7%
+train sample
+        壮志结成四化果___(红心顶起半边天___) -> 英心顶出百家多___
+test sample
+        新春玉犬门前卧___(华夏金龙天外飞___) -> 大地嗣蹄起翠眉___
+
+epoch #33
+val loss   : 4.860750, val predict   = 0.0%
+train loss : 1.323280, train predict = 6.7%
+train sample
+        三春景好闻鸡先起舞_(两岸情深盼燕早归来_) -> 四岸同开喜燕早腾飞_
+test sample
+        万里风云骐骥足___(百年珠树凤凰多___) -> 一堂春雨映云云___
+
+epoch #34
+val loss   : 5.186878, val predict   = 0.0%
+train loss : 1.385919, train predict = 3.3%
+train sample
+        山蛇起舞云行雨___(喜鹊争鸣雪点梅___) -> 骏马登飞报好音___
+test sample
+        云山风度______(松柏气节______) -> 喜气啼薰______
+
+epoch #35
+val loss   : 4.875988, val predict   = 0.0%
+train loss : 1.218386, train predict = 3.3%
+train sample
+        百族有方致富日___(三军无敌国强时___) -> 百代勤劳有康心___
+test sample
+        当谢高朋来贺寿___(更欣愚子既完婚___) -> 与国留存赤子心___
+
+epoch #36
+val loss   : 4.885123, val predict   = 0.0%
+train loss : 1.166628, train predict = 10.0%
+train sample
+        白发朱颜宜登上寿__(丰衣足食乐享高龄__) -> 丰衣足食乐享晚年__
+test sample
+        枝生玉殿美连理___(花满瑶池艳并头___) -> 门前日月映云风___
+
+epoch #37
+val loss   : 3.993980, val predict   = 0.0%
+train loss : 1.051680, train predict = 20.0%
+train sample
+        可染画牛牛得草___(悲鸿放马马扬鞭___) -> 宜鸿见喜吉盈门___
+test sample
+        日丽新居暖_____(风和甲第安_____) -> 人开幸福家_____
+
+epoch #38
+val loss   : 4.765527, val predict   = 0.0%
+train loss : 1.083805, train predict = 10.0%
+train sample
+        子夜为鼠______(丑时属牛______) -> 丑年属牛______
+test sample
+        欣看晋殿乘龙婿___(喜听秦楼引凤箫___) -> 鸟锁丹花贯上云___
+
+epoch #39
+val loss   : 4.852129, val predict   = 3.3%
+train loss : 1.046198, train predict = 6.7%
+train sample
+        一夜秋风狂摧祖竹__(三更凉露泪洒孙兰__) -> 一孪凉秀泪洒东歌__
+test sample
+        马蹄留胜迹_____(羊毫谱新歌_____) -> 羊角触雄梅_____
+
+epoch #40
+val loss   : 4.239096, val predict   = 0.0%
+train loss : 1.060250, train predict = 16.7%
+train sample
+        心贴人民军威壮___(胸怀祖国胆气豪___) -> 胸怀祖国胆气豪___
+test sample
+        玉燕迎春春永驻___(金猴降福福常存___) -> 金鸡奋唱国扬煌___
+
