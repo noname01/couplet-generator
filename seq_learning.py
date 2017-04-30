@@ -33,15 +33,15 @@ decode_input = [tf.zeros_like(encode_input[0], dtype=np.int32, name='GO')] + lab
 keep_prob = tf.placeholder('float')
 
 # stacked to 3 layers
-cells = [tf.nn.rnn_cell.DropoutWrapper(
-        tf.nn.rnn_cell.BasicLSTMCell(embedding_dim), output_keep_prob=keep_prob
-    ) for i in range(4)]
+cells = [tf.contrib.rnn.DropoutWrapper(
+        tf.contrib.rnn.BasicLSTMCell(embedding_dim), output_keep_prob=keep_prob
+    ) for i in range(3)]
 
-stacked_lstm = tf.nn.rnn_cell.MultiRNNCell(cells)
+stacked_lstm = tf.contrib.rnn.MultiRNNCell(cells)
 
 with tf.variable_scope('decoders') as scope:
     # feed_previous=False, for training
-    decode_outputs, decode_state = tf.nn.seq2seq.embedding_rnn_seq2seq(
+    decode_outputs, decode_state = tf.contrib.legacy_seq2seq.embedding_rnn_seq2seq(
         encode_input,
         decode_input,
         stacked_lstm,
@@ -51,7 +51,7 @@ with tf.variable_scope('decoders') as scope:
     
     scope.reuse_variables()
     
-    decode_outputs_test, decode_state_test = tf.nn.seq2seq.embedding_rnn_seq2seq(
+    decode_outputs_test, decode_state_test = tf.contrib.legacy_seq2seq.embedding_rnn_seq2seq(
         encode_input,
         decode_input,
         stacked_lstm,
@@ -61,7 +61,7 @@ with tf.variable_scope('decoders') as scope:
         feed_previous=True)
 
 loss_weights = [tf.ones_like(l, dtype=tf.float32) for l in labels]
-loss = tf.nn.seq2seq.sequence_loss(decode_outputs, labels, loss_weights, output_vocab_size)
+loss = tf.contrib.legacy_seq2seq.sequence_loss(decode_outputs, labels, loss_weights, output_vocab_size)
 
 optimizer = tf.train.AdamOptimizer(0.001)
 train_op = optimizer.minimize(loss)
